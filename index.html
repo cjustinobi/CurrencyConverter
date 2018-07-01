@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter</title>
+    <meta name="keywords" content="currency converter, currency API, currency conversion">
+    <meta name="description" content="Currency convertion App.">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="site-container wrapper">
+
+        <div id="content" class="site-container__text-area">
+            <h1>Currency Converter</h1>
+        </div>
+
+        <div class="site-container__form">
+            <form>
+                <div class="flexContainer flexContainer--medium">
+                    <input id="amount" type="number" placeholder="Enter amount" required>
+                    <button class="convertBtn" type="submit"> Convert</button>
+                </div>
+                <div class="flexContainer2 flexContainer2--medium">
+                    <select id="fromVal">
+            </select> To
+                    <select id="toVal">
+            </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="App.js"></script>
+
+</body>
+
+</html>
